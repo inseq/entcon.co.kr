@@ -32,12 +32,12 @@ $(document).ready(function () {
 	
 });
 
-$(window).on('scroll', function () {
-	// var wsT = $(this).scrollTop();
-	console.log ($(this).scrollTop());
-	if ($(this).scrollTop() < 500) {
-		$('#header').fadeOut('fast');
-	} else {
-		$('#header').fadeIn('fast');
-	}
-});
+// $(window).on('scroll', function () {
+// 	// var wsT = $(this).scrollTop();
+// 	console.log ($(this).scrollTop());
+// 	if ($(this).scrollTop() < 500) {
+// 		$('#header').fadeOut('fast');
+// 	} else {
+// 		$('#header').fadeIn('fast');
+// 	}
+// });

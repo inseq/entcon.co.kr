@@ -9,7 +9,7 @@ body {position:relative; min-width:1020px; overflow:hidden;}
 #skip a:focus, #skip a:active {left:0; top:0; right:0; width:100%; height:40px; line-height:40px; color:#fff; background:#333;}
 
 #wrap {}
-#header {display:none; position:fixed; left:0; right:0; top:0; border-bottom:1px solid #ddd; box-shadow:3px 0 3px rgba(0,0,0,.1); background:rgba(255,255,255,1);}
+#header {position:fixed; left:0; right:0; top:0; border-bottom:1px solid #ddd; box-shadow:3px 0 3px rgba(0,0,0,.1); background:rgba(255,255,255,1);}
 .btn_menu {display:none;}
 #header_inner {width:1000px; margin:auto; padding:20px 0 15px; overflow:hidden;}
 #logo {float:left;}
@@ -67,7 +67,8 @@ body {position:relative; min-width:1020px; overflow:hidden;}
 #biz .biz_area dt.solution {color:#cd782b;}
 #biz .biz_area dd {padding-left:16px; padding-right:25px; border-left:1px solid #d5d5d5;}
 #biz .client {overflow:hidden;}
-#biz .client li {float:left; width:25%; margin:10px 0; text-align:center;}
+#biz .client li {display: flex; justify-content: center; align-items: center; float:left; width:25%; height:50px; margin:10px 0; text-align:center;}
+#biz .client img {max-width:100%; max-height:100%;}
 #solution {background:url(../images/smartphone-925287.jpg) no-repeat center; background-size:100% auto; background-attachment:fixed;}
 #solution .sec_innner {width:800px; margin:auto;}
 #contact {background:#f1f1f1;}
